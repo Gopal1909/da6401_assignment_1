@@ -1,0 +1,54 @@
+_wandb:
+    value:
+        cli_version: 0.25.0
+        e:
+            7mirv3l0nqlw5jp1n7yzr8osc1wak14q:
+                codePath: src\log_samples.py
+                codePathLocal: src\log_samples.py
+                cpu_count: 8
+                cpu_count_logical: 12
+                cudaVersion: "12.6"
+                disk:
+                    /:
+                        total: "179743748096"
+                        used: "126389248000"
+                email: iitmgopal1@gmail.com
+                executable: C:\Users\prani\OneDrive\Desktop\Sem-6 !\DL\da6401_assignment_1\.venv\Scripts\python.exe
+                git:
+                    commit: 5d6d163557afb1a777ede6f0122715cc5f5702e3
+                    remote: https://github.com/MiRL-IITM/da6401_assignment_1
+                gpu: NVIDIA GeForce RTX 4050 Laptop GPU
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ada
+                      cudaCores: 2560
+                      memoryTotal: "6439305216"
+                      name: NVIDIA GeForce RTX 4050 Laptop GPU
+                      uuid: GPU-015c1b9e-c36b-389d-cb4b-c0db25438efc
+                host: Pranitha
+                memory:
+                    total: "16763871232"
+                os: Windows-11-10.0.26200-SP0
+                program: C:\Users\prani\OneDrive\Desktop\Sem-6 !\DL\da6401_assignment_1\src\log_samples.py
+                python: CPython 3.13.12
+                root: C:\Users\prani\OneDrive\Desktop\Sem-6 !\DL\da6401_assignment_1
+                startedAt: "2026-03-06T12:45:30.525287Z"
+                writerId: 7mirv3l0nqlw5jp1n7yzr8osc1wak14q
+        m: []
+        python_version: 3.13.12
+        t:
+            "1":
+                - 5
+                - 53
+            "2":
+                - 5
+                - 53
+            "3":
+                - 2
+                - 13
+            "4": 3.13.12
+            "5": 0.25.0
+            "8":
+                - 3
+            "12": 0.25.0
+            "13": windows-amd64

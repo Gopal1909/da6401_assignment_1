@@ -1,0 +1,12 @@
+{"time":"2026-02-15T17:41:22.1120871+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-02-15T17:41:24.4833353+05:30","level":"INFO","msg":"stream: created new stream","id":"n5gcntik"}
+{"time":"2026-02-15T17:41:24.4833353+05:30","level":"INFO","msg":"handler: started","stream_id":"n5gcntik"}
+{"time":"2026-02-15T17:41:24.4849343+05:30","level":"INFO","msg":"stream: started","id":"n5gcntik"}
+{"time":"2026-02-15T17:41:24.4849343+05:30","level":"INFO","msg":"writer: started","stream_id":"n5gcntik"}
+{"time":"2026-02-15T17:41:24.4855778+05:30","level":"INFO","msg":"sender: started","stream_id":"n5gcntik"}
+{"time":"2026-02-15T17:43:05.8044594+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-15T17:43:10.1922383+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-02-15T17:43:10.1975678+05:30","level":"INFO","msg":"stream: closing","id":"n5gcntik"}
+{"time":"2026-02-15T17:43:10.1975678+05:30","level":"INFO","msg":"handler: closed","stream_id":"n5gcntik"}
+{"time":"2026-02-15T17:43:10.1986898+05:30","level":"INFO","msg":"sender: closed","stream_id":"n5gcntik"}
+{"time":"2026-02-15T17:43:10.1986898+05:30","level":"INFO","msg":"stream: closed","id":"n5gcntik"}

@@ -1,0 +1,22 @@
+[34m[1mwandb[0m: [33mWARNING[0m Config item 'learning_rate' was locked by 'sweep' (ignored update).
+[34m[1mwandb[0m: [33mWARNING[0m Config item 'optimizer' was locked by 'sweep' (ignored update).
+[34m[1mwandb[0m: [33mWARNING[0m Config item 'hidden_size' was locked by 'sweep' (ignored update).
+[34m[1mwandb[0m: [33mWARNING[0m Config item 'activation' was locked by 'sweep' (ignored update).
+Epoch 1/10 - Loss: 0.3482
+Epoch 2/10 - Loss: 0.1841
+Epoch 3/10 - Loss: 0.1324
+Epoch 4/10 - Loss: 0.1016
+Epoch 5/10 - Loss: 0.0820
+Epoch 6/10 - Loss: 0.0681
+Epoch 7/10 - Loss: 0.0571
+Epoch 8/10 - Loss: 0.0482
+Epoch 9/10 - Loss: 0.0420
+Epoch 10/10 - Loss: 0.0356
+Test Metrics:
+loss: 0.07978948486106606
+accuracy: 0.9769
+precision: 0.9768636673684588
+recall: 0.976619979189889
+f1: 0.9767082989738884
+predictions: [7 4 5 ... 6 4 3]
+Model saved to models/best_model.npy

@@ -1,0 +1,13 @@
+{"time":"2026-02-15T14:35:47.8075312+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-02-15T14:35:48.8625125+05:30","level":"INFO","msg":"stream: created new stream","id":"w4gsq3xr"}
+{"time":"2026-02-15T14:35:48.8630163+05:30","level":"INFO","msg":"handler: started","stream_id":"w4gsq3xr"}
+{"time":"2026-02-15T14:35:48.865985+05:30","level":"INFO","msg":"stream: started","id":"w4gsq3xr"}
+{"time":"2026-02-15T14:35:48.8667276+05:30","level":"INFO","msg":"sender: started","stream_id":"w4gsq3xr"}
+{"time":"2026-02-15T14:35:48.8667276+05:30","level":"INFO","msg":"writer: started","stream_id":"w4gsq3xr"}
+{"time":"2026-02-15T14:41:22.9868345+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/iitmgopal1-iit-madras/da6401_assignment_1-src/w4gsq3xr/file_stream\": write tcp [2409:40f4:40d3:380d:b101:b683:2dd0:af88]:59421->[64:ff9b::23ba:e431]:443: wsasend: An existing connection was forcibly closed by the remote host."}
+{"time":"2026-02-15T14:42:25.0652158+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-15T14:42:25.8221982+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-02-15T14:42:25.825195+05:30","level":"INFO","msg":"stream: closing","id":"w4gsq3xr"}
+{"time":"2026-02-15T14:42:25.825195+05:30","level":"INFO","msg":"handler: closed","stream_id":"w4gsq3xr"}
+{"time":"2026-02-15T14:42:25.8263631+05:30","level":"INFO","msg":"sender: closed","stream_id":"w4gsq3xr"}
+{"time":"2026-02-15T14:42:25.8263631+05:30","level":"INFO","msg":"stream: closed","id":"w4gsq3xr"}

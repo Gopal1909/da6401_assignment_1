@@ -1,0 +1,12 @@
+{"time":"2026-02-15T17:57:50.8816982+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-02-15T17:57:53.1683394+05:30","level":"INFO","msg":"stream: created new stream","id":"vbes085b"}
+{"time":"2026-02-15T17:57:53.1688746+05:30","level":"INFO","msg":"handler: started","stream_id":"vbes085b"}
+{"time":"2026-02-15T17:57:53.1710905+05:30","level":"INFO","msg":"stream: started","id":"vbes085b"}
+{"time":"2026-02-15T17:57:53.1710905+05:30","level":"INFO","msg":"writer: started","stream_id":"vbes085b"}
+{"time":"2026-02-15T17:57:53.1710905+05:30","level":"INFO","msg":"sender: started","stream_id":"vbes085b"}
+{"time":"2026-02-15T17:58:53.5500238+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-15T17:58:54.0751245+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-02-15T17:58:54.0786361+05:30","level":"INFO","msg":"stream: closing","id":"vbes085b"}
+{"time":"2026-02-15T17:58:54.0786361+05:30","level":"INFO","msg":"handler: closed","stream_id":"vbes085b"}
+{"time":"2026-02-15T17:58:54.0824085+05:30","level":"INFO","msg":"sender: closed","stream_id":"vbes085b"}
+{"time":"2026-02-15T17:58:54.0829529+05:30","level":"INFO","msg":"stream: closed","id":"vbes085b"}

@@ -1,0 +1,12 @@
+{"time":"2026-02-15T17:43:19.3379832+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-02-15T17:43:21.5402039+05:30","level":"INFO","msg":"stream: created new stream","id":"rxu2486w"}
+{"time":"2026-02-15T17:43:21.5407127+05:30","level":"INFO","msg":"handler: started","stream_id":"rxu2486w"}
+{"time":"2026-02-15T17:43:21.5429058+05:30","level":"INFO","msg":"stream: started","id":"rxu2486w"}
+{"time":"2026-02-15T17:43:21.5429058+05:30","level":"INFO","msg":"sender: started","stream_id":"rxu2486w"}
+{"time":"2026-02-15T17:43:21.5429058+05:30","level":"INFO","msg":"writer: started","stream_id":"rxu2486w"}
+{"time":"2026-02-15T17:44:55.7350943+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-15T17:44:56.1452242+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-02-15T17:44:56.1523421+05:30","level":"INFO","msg":"stream: closing","id":"rxu2486w"}
+{"time":"2026-02-15T17:44:56.1523421+05:30","level":"INFO","msg":"handler: closed","stream_id":"rxu2486w"}
+{"time":"2026-02-15T17:44:56.1543908+05:30","level":"INFO","msg":"sender: closed","stream_id":"rxu2486w"}
+{"time":"2026-02-15T17:44:56.1543908+05:30","level":"INFO","msg":"stream: closed","id":"rxu2486w"}

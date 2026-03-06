@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "C:\Users\prani\anaconda3\envs\da6401\lib\site-packages\sklearn\utils\_optional_dependencies.py", line 42, in check_pandas_support
+    import pandas
+ModuleNotFoundError: No module named 'pandas'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\prani\anaconda3\envs\da6401\lib\site-packages\sklearn\datasets\_openml.py", line 1064, in fetch_openml
+    check_pandas_support("`fetch_openml`")
+  File "C:\Users\prani\anaconda3\envs\da6401\lib\site-packages\sklearn\utils\_optional_dependencies.py", line 46, in check_pandas_support
+    raise ImportError("{} requires pandas.".format(caller_name)) from e
+ImportError: `fetch_openml` requires pandas.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\prani\OneDrive\Desktop\Sem-6 !\DL\da6401_assignment_1\src\log_samples.py", line 7, in <module>
+    X_train, y_train, _, _ = load_data("mnist")
+  File "C:\Users\prani\OneDrive\Desktop\Sem-6 !\DL\da6401_assignment_1\src\utils\data_loader.py", line 11, in load_data
+    dataset = fetch_openml("mnist_784", version=1, as_frame=False)
+  File "C:\Users\prani\anaconda3\envs\da6401\lib\site-packages\sklearn\utils\_param_validation.py", line 218, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\prani\anaconda3\envs\da6401\lib\site-packages\sklearn\datasets\_openml.py", line 1077, in fetch_openml
+    raise ImportError(err_msg) from exc
+ImportError: Using `parser='auto'` with dense data requires pandas to be installed. Alternatively, explicitly set `parser='liac-arff'`.

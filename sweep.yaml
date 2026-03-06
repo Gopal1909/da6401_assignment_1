@@ -1,0 +1,27 @@
+program: src/train.py
+
+method: random
+
+metric:
+  name: val_loss
+  goal: minimize
+
+command:
+  - .venv\Scripts\python.exe
+  - ${program}
+  - ${args}
+
+parameters:
+  learning_rate:
+    values: [0.001, 0.0005, 0.01]
+  
+  optimizer:
+    values: ["sgd", "adam", "rmsprop"]
+  
+  hidden_size:
+    values:
+      - "128,128"
+      - "128,64"
+      - "64,64"
+  activation:
+    values: ["relu", "tanh"]

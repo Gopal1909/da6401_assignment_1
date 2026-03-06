@@ -1,0 +1,1016 @@
+2026-02-15 13:50:10 INFO Running runs: []
+2026-02-15 13:50:11 INFO Agent received command: run
+2026-02-15 13:50:11 INFO Agent starting run with config:
+	activation: relu
+	hidden_size: 128,128
+	learning_rate: 0.01
+	optimizer: sgd
+2026-02-15 13:50:11 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=relu --hidden_size=128,128 --learning_rate=0.01 --optimizer=sgd
+2026-02-15 13:50:16 INFO Running runs: ['n7yicnu2']
+2026-02-15 13:51:33 INFO Cleaning up finished run: n7yicnu2
+2026-02-15 13:51:35 INFO Agent received command: run
+2026-02-15 13:51:35 INFO Agent starting run with config:
+	activation: relu
+	hidden_size: 128,64
+	learning_rate: 0.001
+	optimizer: sgd
+2026-02-15 13:51:35 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=relu --hidden_size=128,64 --learning_rate=0.001 --optimizer=sgd
+2026-02-15 13:51:40 INFO Running runs: ['ccdkadi3']
+2026-02-15 13:52:50 INFO Cleaning up finished run: ccdkadi3
+2026-02-15 13:52:51 INFO Agent received command: run
+2026-02-15 13:52:51 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 128,64
+	learning_rate: 0.01
+	optimizer: adam
+2026-02-15 13:52:51 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=128,64 --learning_rate=0.01 --optimizer=adam
+2026-02-15 13:52:56 INFO Running runs: ['fuw8nffe']
+2026-02-15 13:54:10 INFO Cleaning up finished run: fuw8nffe
+2026-02-15 13:54:11 INFO Agent received command: run
+2026-02-15 13:54:11 INFO Agent starting run with config:
+	activation: relu
+	hidden_size: 64,64
+	learning_rate: 0.0005
+	optimizer: adam
+2026-02-15 13:54:11 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=relu --hidden_size=64,64 --learning_rate=0.0005 --optimizer=adam
+2026-02-15 13:54:16 INFO Running runs: ['tv70tnwf']
+2026-02-15 13:55:25 INFO Cleaning up finished run: tv70tnwf
+2026-02-15 13:55:26 INFO Agent received command: run
+2026-02-15 13:55:26 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 128,64
+	learning_rate: 0.01
+	optimizer: sgd
+2026-02-15 13:55:26 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=128,64 --learning_rate=0.01 --optimizer=sgd
+2026-02-15 13:55:31 INFO Running runs: ['pzqwtgy3']
+2026-02-15 13:57:07 INFO Cleaning up finished run: pzqwtgy3
+2026-02-15 13:57:08 INFO Agent received command: run
+2026-02-15 13:57:08 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 128,64
+	learning_rate: 0.01
+	optimizer: adam
+2026-02-15 13:57:08 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=128,64 --learning_rate=0.01 --optimizer=adam
+2026-02-15 13:57:13 INFO Running runs: ['yny44zjr']
+2026-02-15 13:58:39 INFO Cleaning up finished run: yny44zjr
+2026-02-15 13:58:39 INFO Agent received command: run
+2026-02-15 13:58:39 INFO Agent starting run with config:
+	activation: relu
+	hidden_size: 64,64
+	learning_rate: 0.01
+	optimizer: rmsprop
+2026-02-15 13:58:39 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=relu --hidden_size=64,64 --learning_rate=0.01 --optimizer=rmsprop
+2026-02-15 13:58:44 INFO Running runs: ['16d3s4jk']
+2026-02-15 13:59:11 INFO Cleaning up finished run: 16d3s4jk
+2026-02-15 13:59:13 INFO Agent received command: run
+2026-02-15 13:59:13 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 64,64
+	learning_rate: 0.0005
+	optimizer: adam
+2026-02-15 13:59:13 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=64,64 --learning_rate=0.0005 --optimizer=adam
+2026-02-15 13:59:18 INFO Running runs: ['5azln01x']
+2026-02-15 13:59:55 INFO Cleaning up finished run: 5azln01x
+2026-02-15 13:59:56 INFO Agent received command: run
+2026-02-15 13:59:56 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 128,64
+	learning_rate: 0.01
+	optimizer: sgd
+2026-02-15 13:59:56 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=128,64 --learning_rate=0.01 --optimizer=sgd
+2026-02-15 14:00:01 INFO Running runs: ['stiy4mze']
+2026-02-15 14:00:49 INFO Cleaning up finished run: stiy4mze
+2026-02-15 14:00:50 INFO Agent received command: run
+2026-02-15 14:00:50 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 128,128
+	learning_rate: 0.0005
+	optimizer: rmsprop
+2026-02-15 14:00:50 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=128,128 --learning_rate=0.0005 --optimizer=rmsprop
+2026-02-15 14:00:55 INFO Running runs: ['1msg4zys']
+2026-02-15 14:01:48 INFO Cleaning up finished run: 1msg4zys
+2026-02-15 14:01:49 INFO Agent received command: run
+2026-02-15 14:01:49 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 64,64
+	learning_rate: 0.001
+	optimizer: sgd
+2026-02-15 14:01:49 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=64,64 --learning_rate=0.001 --optimizer=sgd
+2026-02-15 14:01:54 INFO Running runs: ['w97f5qqj']
+2026-02-15 14:02:21 INFO Cleaning up finished run: w97f5qqj
+2026-02-15 14:02:22 INFO Agent received command: run
+2026-02-15 14:02:22 INFO Agent starting run with config:
+	activation: relu
+	hidden_size: 128,64
+	learning_rate: 0.01
+	optimizer: sgd
+2026-02-15 14:02:22 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=relu --hidden_size=128,64 --learning_rate=0.01 --optimizer=sgd
+2026-02-15 14:02:27 INFO Running runs: ['w1cvdu5h']
+2026-02-15 14:03:04 INFO Cleaning up finished run: w1cvdu5h
+2026-02-15 14:03:05 INFO Agent received command: run
+2026-02-15 14:03:05 INFO Agent starting run with config:
+	activation: relu
+	hidden_size: 64,64
+	learning_rate: 0.01
+	optimizer: adam
+2026-02-15 14:03:05 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=relu --hidden_size=64,64 --learning_rate=0.01 --optimizer=adam
+2026-02-15 14:03:10 INFO Running runs: ['ccy32l9e']
+2026-02-15 14:03:37 INFO Cleaning up finished run: ccy32l9e
+2026-02-15 14:03:38 INFO Agent received command: run
+2026-02-15 14:03:38 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 128,64
+	learning_rate: 0.001
+	optimizer: adam
+2026-02-15 14:03:38 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=128,64 --learning_rate=0.001 --optimizer=adam
+2026-02-15 14:03:43 INFO Running runs: ['flj3v6n8']
+2026-02-15 14:05:12 INFO Cleaning up finished run: flj3v6n8
+2026-02-15 14:05:13 INFO Agent received command: run
+2026-02-15 14:05:13 INFO Agent starting run with config:
+	activation: relu
+	hidden_size: 128,64
+	learning_rate: 0.001
+	optimizer: sgd
+2026-02-15 14:05:13 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=relu --hidden_size=128,64 --learning_rate=0.001 --optimizer=sgd
+2026-02-15 14:05:18 INFO Running runs: ['ofdk8k4w']
+2026-02-15 14:05:56 INFO Cleaning up finished run: ofdk8k4w
+2026-02-15 14:05:57 INFO Agent received command: run
+2026-02-15 14:05:57 INFO Agent starting run with config:
+	activation: relu
+	hidden_size: 128,64
+	learning_rate: 0.001
+	optimizer: adam
+2026-02-15 14:05:57 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=relu --hidden_size=128,64 --learning_rate=0.001 --optimizer=adam
+2026-02-15 14:06:02 INFO Running runs: ['bci28un2']
+2026-02-15 14:07:06 INFO Cleaning up finished run: bci28un2
+2026-02-15 14:07:07 INFO Agent received command: run
+2026-02-15 14:07:07 INFO Agent starting run with config:
+	activation: relu
+	hidden_size: 64,64
+	learning_rate: 0.001
+	optimizer: sgd
+2026-02-15 14:07:07 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=relu --hidden_size=64,64 --learning_rate=0.001 --optimizer=sgd
+2026-02-15 14:07:12 INFO Running runs: ['7vmlwshr']
+2026-02-15 14:07:39 INFO Cleaning up finished run: 7vmlwshr
+2026-02-15 14:07:40 INFO Agent received command: run
+2026-02-15 14:07:40 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 128,64
+	learning_rate: 0.001
+	optimizer: sgd
+2026-02-15 14:07:40 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=128,64 --learning_rate=0.001 --optimizer=sgd
+2026-02-15 14:07:45 INFO Running runs: ['nqxugzo1']
+2026-02-15 14:08:34 INFO Cleaning up finished run: nqxugzo1
+2026-02-15 14:08:35 INFO Agent received command: run
+2026-02-15 14:08:35 INFO Agent starting run with config:
+	activation: relu
+	hidden_size: 128,64
+	learning_rate: 0.001
+	optimizer: adam
+2026-02-15 14:08:35 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=relu --hidden_size=128,64 --learning_rate=0.001 --optimizer=adam
+2026-02-15 14:08:40 INFO Running runs: ['haao7ym0']
+2026-02-15 14:14:54 INFO Cleaning up finished run: haao7ym0
+2026-02-15 14:14:55 INFO Agent received command: run
+2026-02-15 14:14:55 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 128,64
+	learning_rate: 0.001
+	optimizer: rmsprop
+2026-02-15 14:14:55 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=128,64 --learning_rate=0.001 --optimizer=rmsprop
+2026-02-15 14:15:00 INFO Running runs: ['8o1mma5n']
+2026-02-15 14:16:16 INFO Cleaning up finished run: 8o1mma5n
+2026-02-15 14:16:17 INFO Agent received command: run
+2026-02-15 14:16:17 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 64,64
+	learning_rate: 0.01
+	optimizer: rmsprop
+2026-02-15 14:16:17 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=64,64 --learning_rate=0.01 --optimizer=rmsprop
+2026-02-15 14:16:22 INFO Running runs: ['b7zc05d3']
+2026-02-15 14:16:54 INFO Cleaning up finished run: b7zc05d3
+2026-02-15 14:16:55 INFO Agent received command: run
+2026-02-15 14:16:55 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 128,64
+	learning_rate: 0.001
+	optimizer: rmsprop
+2026-02-15 14:16:55 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=128,64 --learning_rate=0.001 --optimizer=rmsprop
+2026-02-15 14:17:00 INFO Running runs: ['d3kmgz4x']
+2026-02-15 14:18:33 INFO Cleaning up finished run: d3kmgz4x
+2026-02-15 14:18:35 INFO Agent received command: run
+2026-02-15 14:18:35 INFO Agent starting run with config:
+	activation: relu
+	hidden_size: 128,128
+	learning_rate: 0.001
+	optimizer: sgd
+2026-02-15 14:18:35 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=relu --hidden_size=128,128 --learning_rate=0.001 --optimizer=sgd
+2026-02-15 14:18:40 INFO Running runs: ['sw0h13hg']
+2026-02-15 14:19:49 INFO Cleaning up finished run: sw0h13hg
+2026-02-15 14:19:50 INFO Agent received command: run
+2026-02-15 14:19:50 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 128,64
+	learning_rate: 0.001
+	optimizer: sgd
+2026-02-15 14:19:50 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=128,64 --learning_rate=0.001 --optimizer=sgd
+2026-02-15 14:19:55 INFO Running runs: ['z8e1p3ht']
+2026-02-15 14:21:10 INFO Cleaning up finished run: z8e1p3ht
+2026-02-15 14:21:11 INFO Agent received command: run
+2026-02-15 14:21:11 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 128,128
+	learning_rate: 0.01
+	optimizer: sgd
+2026-02-15 14:21:11 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=128,128 --learning_rate=0.01 --optimizer=sgd
+2026-02-15 14:21:16 INFO Running runs: ['xglleegd']
+2026-02-15 14:22:20 INFO Cleaning up finished run: xglleegd
+2026-02-15 14:22:21 INFO Agent received command: run
+2026-02-15 14:22:21 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 128,128
+	learning_rate: 0.0005
+	optimizer: adam
+2026-02-15 14:22:21 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=128,128 --learning_rate=0.0005 --optimizer=adam
+2026-02-15 14:22:26 INFO Running runs: ['9np3g4pa']
+2026-02-15 14:24:03 INFO Cleaning up finished run: 9np3g4pa
+2026-02-15 14:24:04 INFO Agent received command: run
+2026-02-15 14:24:04 INFO Agent starting run with config:
+	activation: relu
+	hidden_size: 128,128
+	learning_rate: 0.001
+	optimizer: sgd
+2026-02-15 14:24:04 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=relu --hidden_size=128,128 --learning_rate=0.001 --optimizer=sgd
+2026-02-15 14:24:09 INFO Running runs: ['dq10z9wj']
+2026-02-15 14:25:07 INFO Cleaning up finished run: dq10z9wj
+2026-02-15 14:25:09 INFO Agent received command: run
+2026-02-15 14:25:09 INFO Agent starting run with config:
+	activation: relu
+	hidden_size: 128,64
+	learning_rate: 0.001
+	optimizer: rmsprop
+2026-02-15 14:25:09 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=relu --hidden_size=128,64 --learning_rate=0.001 --optimizer=rmsprop
+2026-02-15 14:25:14 INFO Running runs: ['6kiqpa5u']
+2026-02-15 14:26:20 INFO Cleaning up finished run: 6kiqpa5u
+2026-02-15 14:26:21 INFO Agent received command: run
+2026-02-15 14:26:21 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 128,64
+	learning_rate: 0.001
+	optimizer: sgd
+2026-02-15 14:26:21 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=128,64 --learning_rate=0.001 --optimizer=sgd
+2026-02-15 14:26:26 INFO Running runs: ['glz4ybvx']
+2026-02-15 14:27:33 INFO Cleaning up finished run: glz4ybvx
+2026-02-15 14:27:35 INFO Agent received command: run
+2026-02-15 14:27:35 INFO Agent starting run with config:
+	activation: relu
+	hidden_size: 128,128
+	learning_rate: 0.01
+	optimizer: rmsprop
+2026-02-15 14:27:35 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=relu --hidden_size=128,128 --learning_rate=0.01 --optimizer=rmsprop
+2026-02-15 14:27:40 INFO Running runs: ['lpnohliy']
+2026-02-15 14:28:29 INFO Cleaning up finished run: lpnohliy
+2026-02-15 14:28:31 INFO Agent received command: run
+2026-02-15 14:28:31 INFO Agent starting run with config:
+	activation: relu
+	hidden_size: 128,64
+	learning_rate: 0.0005
+	optimizer: rmsprop
+2026-02-15 14:28:31 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=relu --hidden_size=128,64 --learning_rate=0.0005 --optimizer=rmsprop
+2026-02-15 14:28:36 INFO Running runs: ['stwi4sf2']
+2026-02-15 14:29:52 INFO Cleaning up finished run: stwi4sf2
+2026-02-15 14:29:53 INFO Agent received command: run
+2026-02-15 14:29:53 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 128,64
+	learning_rate: 0.0005
+	optimizer: sgd
+2026-02-15 14:29:53 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=128,64 --learning_rate=0.0005 --optimizer=sgd
+2026-02-15 14:29:58 INFO Running runs: ['p2xf2q2s']
+2026-02-15 14:30:58 INFO Cleaning up finished run: p2xf2q2s
+2026-02-15 14:30:59 INFO Agent received command: run
+2026-02-15 14:30:59 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 128,128
+	learning_rate: 0.001
+	optimizer: rmsprop
+2026-02-15 14:30:59 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=128,128 --learning_rate=0.001 --optimizer=rmsprop
+2026-02-15 14:31:04 INFO Running runs: ['48siytlu']
+2026-02-15 14:32:34 INFO Cleaning up finished run: 48siytlu
+2026-02-15 14:32:35 INFO Agent received command: run
+2026-02-15 14:32:35 INFO Agent starting run with config:
+	activation: relu
+	hidden_size: 64,64
+	learning_rate: 0.001
+	optimizer: sgd
+2026-02-15 14:32:35 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=relu --hidden_size=64,64 --learning_rate=0.001 --optimizer=sgd
+2026-02-15 14:32:40 INFO Running runs: ['inct8vfg']
+2026-02-15 14:33:29 INFO Cleaning up finished run: inct8vfg
+2026-02-15 14:33:31 INFO Agent received command: run
+2026-02-15 14:33:31 INFO Agent starting run with config:
+	activation: relu
+	hidden_size: 128,128
+	learning_rate: 0.01
+	optimizer: adam
+2026-02-15 14:33:31 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=relu --hidden_size=128,128 --learning_rate=0.01 --optimizer=adam
+2026-02-15 14:33:36 INFO Running runs: ['0mlxmqug']
+2026-02-15 14:34:46 INFO Cleaning up finished run: 0mlxmqug
+2026-02-15 14:34:47 INFO Agent received command: run
+2026-02-15 14:34:47 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 64,64
+	learning_rate: 0.01
+	optimizer: sgd
+2026-02-15 14:34:47 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=64,64 --learning_rate=0.01 --optimizer=sgd
+2026-02-15 14:34:52 INFO Running runs: ['j52y4tuz']
+2026-02-15 14:35:41 INFO Cleaning up finished run: j52y4tuz
+2026-02-15 14:35:42 INFO Agent received command: run
+2026-02-15 14:35:42 INFO Agent starting run with config:
+	activation: relu
+	hidden_size: 128,128
+	learning_rate: 0.001
+	optimizer: rmsprop
+2026-02-15 14:35:42 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=relu --hidden_size=128,128 --learning_rate=0.001 --optimizer=rmsprop
+2026-02-15 14:35:47 INFO Running runs: ['w4gsq3xr']
+2026-02-15 14:42:29 INFO Cleaning up finished run: w4gsq3xr
+2026-02-15 14:42:30 INFO Agent received command: run
+2026-02-15 14:42:30 INFO Agent starting run with config:
+	activation: relu
+	hidden_size: 128,128
+	learning_rate: 0.01
+	optimizer: adam
+2026-02-15 14:42:30 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=relu --hidden_size=128,128 --learning_rate=0.01 --optimizer=adam
+2026-02-15 14:42:35 INFO Running runs: ['im9g6f6n']
+2026-02-15 14:43:30 INFO Cleaning up finished run: im9g6f6n
+2026-02-15 14:43:31 INFO Agent received command: run
+2026-02-15 14:43:31 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 128,64
+	learning_rate: 0.01
+	optimizer: rmsprop
+2026-02-15 14:43:31 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=128,64 --learning_rate=0.01 --optimizer=rmsprop
+2026-02-15 14:43:36 INFO Running runs: ['26ranhuz']
+2026-02-15 14:44:51 INFO Cleaning up finished run: 26ranhuz
+2026-02-15 14:44:53 INFO Agent received command: run
+2026-02-15 14:44:53 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 64,64
+	learning_rate: 0.0005
+	optimizer: sgd
+2026-02-15 14:44:53 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=64,64 --learning_rate=0.0005 --optimizer=sgd
+2026-02-15 14:44:58 INFO Running runs: ['t96k8jcf']
+2026-02-15 14:45:47 INFO Cleaning up finished run: t96k8jcf
+2026-02-15 14:45:49 INFO Agent received command: run
+2026-02-15 14:45:49 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 128,128
+	learning_rate: 0.01
+	optimizer: adam
+2026-02-15 14:45:49 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=128,128 --learning_rate=0.01 --optimizer=adam
+2026-02-15 14:45:54 INFO Running runs: ['sdm3hai9']
+2026-02-15 14:46:48 INFO Cleaning up finished run: sdm3hai9
+2026-02-15 14:46:50 INFO Agent received command: run
+2026-02-15 14:46:50 INFO Agent starting run with config:
+	activation: relu
+	hidden_size: 128,64
+	learning_rate: 0.0005
+	optimizer: rmsprop
+2026-02-15 14:46:50 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=relu --hidden_size=128,64 --learning_rate=0.0005 --optimizer=rmsprop
+2026-02-15 14:46:55 INFO Running runs: ['dd8fcatn']
+2026-02-15 14:48:33 INFO Cleaning up finished run: dd8fcatn
+2026-02-15 14:48:34 INFO Agent received command: run
+2026-02-15 14:48:34 INFO Agent starting run with config:
+	activation: relu
+	hidden_size: 128,128
+	learning_rate: 0.01
+	optimizer: adam
+2026-02-15 14:48:34 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=relu --hidden_size=128,128 --learning_rate=0.01 --optimizer=adam
+2026-02-15 14:48:39 INFO Running runs: ['ezi39jt4']
+2026-02-15 14:49:50 INFO Cleaning up finished run: ezi39jt4
+2026-02-15 14:49:51 INFO Agent received command: run
+2026-02-15 14:49:51 INFO Agent starting run with config:
+	activation: relu
+	hidden_size: 128,128
+	learning_rate: 0.01
+	optimizer: sgd
+2026-02-15 14:49:51 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=relu --hidden_size=128,128 --learning_rate=0.01 --optimizer=sgd
+2026-02-15 14:49:56 INFO Running runs: ['xywlo63s']
+2026-02-15 14:51:01 INFO Cleaning up finished run: xywlo63s
+2026-02-15 14:51:02 INFO Agent received command: run
+2026-02-15 14:51:02 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 128,128
+	learning_rate: 0.0005
+	optimizer: adam
+2026-02-15 14:51:02 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=128,128 --learning_rate=0.0005 --optimizer=adam
+2026-02-15 14:51:07 INFO Running runs: ['5mvmex6h']
+2026-02-15 14:52:54 INFO Cleaning up finished run: 5mvmex6h
+2026-02-15 14:52:55 INFO Agent received command: run
+2026-02-15 14:52:55 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 64,64
+	learning_rate: 0.001
+	optimizer: adam
+2026-02-15 14:52:55 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=64,64 --learning_rate=0.001 --optimizer=adam
+2026-02-15 14:53:00 INFO Running runs: ['d97zxi3l']
+2026-02-15 14:53:57 INFO Cleaning up finished run: d97zxi3l
+2026-02-15 14:53:58 INFO Agent received command: run
+2026-02-15 14:53:58 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 128,64
+	learning_rate: 0.0005
+	optimizer: sgd
+2026-02-15 14:53:58 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=128,64 --learning_rate=0.0005 --optimizer=sgd
+2026-02-15 14:54:03 INFO Running runs: ['cyqzymci']
+2026-02-15 14:55:10 INFO Cleaning up finished run: cyqzymci
+2026-02-15 14:55:11 INFO Agent received command: run
+2026-02-15 14:55:11 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 128,64
+	learning_rate: 0.001
+	optimizer: adam
+2026-02-15 14:55:11 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=128,64 --learning_rate=0.001 --optimizer=adam
+2026-02-15 14:55:16 INFO Running runs: ['n9e8k4qb']
+2026-02-15 14:56:49 INFO Cleaning up finished run: n9e8k4qb
+2026-02-15 14:56:50 INFO Agent received command: run
+2026-02-15 14:56:50 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 64,64
+	learning_rate: 0.0005
+	optimizer: sgd
+2026-02-15 14:56:50 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=64,64 --learning_rate=0.0005 --optimizer=sgd
+2026-02-15 14:56:55 INFO Running runs: ['0946gwix']
+2026-02-15 15:01:32 INFO Cleaning up finished run: 0946gwix
+2026-02-15 15:01:35 INFO Agent received command: run
+2026-02-15 15:01:35 INFO Agent starting run with config:
+	activation: relu
+	hidden_size: 128,64
+	learning_rate: 0.01
+	optimizer: adam
+2026-02-15 15:01:35 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=relu --hidden_size=128,64 --learning_rate=0.01 --optimizer=adam
+2026-02-15 15:01:40 INFO Running runs: ['658wjqp8']
+2026-02-15 15:03:12 INFO Cleaning up finished run: 658wjqp8
+2026-02-15 15:03:14 INFO Agent received command: run
+2026-02-15 15:03:14 INFO Agent starting run with config:
+	activation: relu
+	hidden_size: 128,64
+	learning_rate: 0.01
+	optimizer: adam
+2026-02-15 15:03:14 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=relu --hidden_size=128,64 --learning_rate=0.01 --optimizer=adam
+2026-02-15 15:03:19 INFO Running runs: ['znn6xrzq']
+2026-02-15 15:04:30 INFO Cleaning up finished run: znn6xrzq
+2026-02-15 15:04:31 INFO Agent received command: run
+2026-02-15 15:04:31 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 64,64
+	learning_rate: 0.01
+	optimizer: adam
+2026-02-15 15:04:31 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=64,64 --learning_rate=0.01 --optimizer=adam
+2026-02-15 15:04:36 INFO Running runs: ['4hl9hoew']
+2026-02-15 16:41:59 INFO Cleaning up finished run: 4hl9hoew
+2026-02-15 16:42:00 INFO Agent received command: run
+2026-02-15 16:42:00 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 64,64
+	learning_rate: 0.001
+	optimizer: rmsprop
+2026-02-15 16:42:00 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=64,64 --learning_rate=0.001 --optimizer=rmsprop
+2026-02-15 16:42:05 INFO Running runs: ['290jvkn4']
+2026-02-15 16:43:59 INFO Cleaning up finished run: 290jvkn4
+2026-02-15 16:44:00 INFO Agent received command: run
+2026-02-15 16:44:00 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 64,64
+	learning_rate: 0.01
+	optimizer: rmsprop
+2026-02-15 16:44:00 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=64,64 --learning_rate=0.01 --optimizer=rmsprop
+2026-02-15 16:44:05 INFO Running runs: ['8kpn1b35']
+2026-02-15 16:44:48 INFO Cleaning up finished run: 8kpn1b35
+2026-02-15 16:44:48 INFO Agent received command: run
+2026-02-15 16:44:48 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 128,128
+	learning_rate: 0.01
+	optimizer: rmsprop
+2026-02-15 16:44:48 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=128,128 --learning_rate=0.01 --optimizer=rmsprop
+2026-02-15 16:44:53 INFO Running runs: ['827rzcdj']
+2026-02-15 16:46:12 INFO Cleaning up finished run: 827rzcdj
+2026-02-15 16:46:13 INFO Agent received command: run
+2026-02-15 16:46:13 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 64,64
+	learning_rate: 0.01
+	optimizer: rmsprop
+2026-02-15 16:46:13 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=64,64 --learning_rate=0.01 --optimizer=rmsprop
+2026-02-15 16:46:18 INFO Running runs: ['hf4l8z9d']
+2026-02-15 16:47:14 INFO Cleaning up finished run: hf4l8z9d
+2026-02-15 16:47:14 INFO Agent received command: run
+2026-02-15 16:47:14 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 64,64
+	learning_rate: 0.01
+	optimizer: adam
+2026-02-15 16:47:14 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=64,64 --learning_rate=0.01 --optimizer=adam
+2026-02-15 16:47:19 INFO Running runs: ['i0ij632r']
+2026-02-15 16:48:09 INFO Cleaning up finished run: i0ij632r
+2026-02-15 16:48:10 INFO Agent received command: run
+2026-02-15 16:48:10 INFO Agent starting run with config:
+	activation: relu
+	hidden_size: 128,64
+	learning_rate: 0.01
+	optimizer: adam
+2026-02-15 16:48:10 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=relu --hidden_size=128,64 --learning_rate=0.01 --optimizer=adam
+2026-02-15 16:48:15 INFO Running runs: ['gg4yfbg8']
+2026-02-15 16:49:29 INFO Cleaning up finished run: gg4yfbg8
+2026-02-15 16:49:29 INFO Agent received command: run
+2026-02-15 16:49:29 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 64,64
+	learning_rate: 0.0005
+	optimizer: rmsprop
+2026-02-15 16:49:29 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=64,64 --learning_rate=0.0005 --optimizer=rmsprop
+2026-02-15 16:49:35 INFO Running runs: ['y4qv7m6c']
+2026-02-15 16:50:29 INFO Cleaning up finished run: y4qv7m6c
+2026-02-15 16:50:35 INFO Agent received command: run
+2026-02-15 16:50:35 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 128,128
+	learning_rate: 0.001
+	optimizer: rmsprop
+2026-02-15 16:50:35 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=128,128 --learning_rate=0.001 --optimizer=rmsprop
+2026-02-15 16:50:40 INFO Running runs: ['nbmfcqaz']
+2026-02-15 16:53:55 INFO Cleaning up finished run: nbmfcqaz
+2026-02-15 16:53:56 INFO Agent received command: run
+2026-02-15 16:53:56 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 64,64
+	learning_rate: 0.0005
+	optimizer: rmsprop
+2026-02-15 16:53:56 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=64,64 --learning_rate=0.0005 --optimizer=rmsprop
+2026-02-15 16:54:01 INFO Running runs: ['rp7r8o7a']
+2026-02-15 16:55:00 INFO Cleaning up finished run: rp7r8o7a
+2026-02-15 16:55:01 INFO Agent received command: run
+2026-02-15 16:55:01 INFO Agent starting run with config:
+	activation: relu
+	hidden_size: 64,64
+	learning_rate: 0.0005
+	optimizer: rmsprop
+2026-02-15 16:55:01 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=relu --hidden_size=64,64 --learning_rate=0.0005 --optimizer=rmsprop
+2026-02-15 16:55:06 INFO Running runs: ['wylla1ml']
+2026-02-15 16:56:01 INFO Cleaning up finished run: wylla1ml
+2026-02-15 16:56:02 INFO Agent received command: run
+2026-02-15 16:56:02 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 64,64
+	learning_rate: 0.001
+	optimizer: adam
+2026-02-15 16:56:02 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=64,64 --learning_rate=0.001 --optimizer=adam
+2026-02-15 16:56:07 INFO Running runs: ['okv0zbue']
+2026-02-15 16:57:06 INFO Cleaning up finished run: okv0zbue
+2026-02-15 16:57:07 INFO Agent received command: run
+2026-02-15 16:57:07 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 64,64
+	learning_rate: 0.01
+	optimizer: sgd
+2026-02-15 16:57:07 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=64,64 --learning_rate=0.01 --optimizer=sgd
+2026-02-15 16:57:12 INFO Running runs: ['yd8swbq2']
+2026-02-15 16:58:06 INFO Cleaning up finished run: yd8swbq2
+2026-02-15 16:58:07 INFO Agent received command: run
+2026-02-15 16:58:07 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 128,64
+	learning_rate: 0.0005
+	optimizer: adam
+2026-02-15 16:58:07 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=128,64 --learning_rate=0.0005 --optimizer=adam
+2026-02-15 16:58:12 INFO Running runs: ['8nzi303c']
+2026-02-15 17:00:20 INFO Cleaning up finished run: 8nzi303c
+2026-02-15 17:00:20 INFO Agent received command: run
+2026-02-15 17:00:20 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 128,128
+	learning_rate: 0.001
+	optimizer: rmsprop
+2026-02-15 17:00:20 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=128,128 --learning_rate=0.001 --optimizer=rmsprop
+2026-02-15 17:00:25 INFO Running runs: ['jf3pj9yf']
+2026-02-15 17:02:27 INFO Cleaning up finished run: jf3pj9yf
+2026-02-15 17:02:28 INFO Agent received command: run
+2026-02-15 17:02:28 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 128,64
+	learning_rate: 0.01
+	optimizer: rmsprop
+2026-02-15 17:02:28 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=128,64 --learning_rate=0.01 --optimizer=rmsprop
+2026-02-15 17:02:33 INFO Running runs: ['o0ctp6sp']
+2026-02-15 17:04:10 INFO Cleaning up finished run: o0ctp6sp
+2026-02-15 17:04:11 INFO Agent received command: run
+2026-02-15 17:04:11 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 128,64
+	learning_rate: 0.0005
+	optimizer: sgd
+2026-02-15 17:04:11 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=128,64 --learning_rate=0.0005 --optimizer=sgd
+2026-02-15 17:04:16 INFO Running runs: ['whb5jyhc']
+2026-02-15 17:05:15 INFO Cleaning up finished run: whb5jyhc
+2026-02-15 17:05:16 INFO Agent received command: run
+2026-02-15 17:05:16 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 128,128
+	learning_rate: 0.001
+	optimizer: rmsprop
+2026-02-15 17:05:16 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=128,128 --learning_rate=0.001 --optimizer=rmsprop
+2026-02-15 17:05:21 INFO Running runs: ['c99zh4m6']
+2026-02-15 17:06:31 INFO Cleaning up finished run: c99zh4m6
+2026-02-15 17:06:32 INFO Agent received command: run
+2026-02-15 17:06:32 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 128,64
+	learning_rate: 0.01
+	optimizer: rmsprop
+2026-02-15 17:06:32 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=128,64 --learning_rate=0.01 --optimizer=rmsprop
+2026-02-15 17:06:37 INFO Running runs: ['yn920x8b']
+2026-02-15 17:07:52 INFO Cleaning up finished run: yn920x8b
+2026-02-15 17:07:53 INFO Agent received command: run
+2026-02-15 17:07:53 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 128,128
+	learning_rate: 0.001
+	optimizer: sgd
+2026-02-15 17:07:53 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=128,128 --learning_rate=0.001 --optimizer=sgd
+2026-02-15 17:07:58 INFO Running runs: ['x2ca4iak']
+2026-02-15 17:25:14 INFO Running runs: []
+2026-02-15 17:25:15 INFO Agent received command: run
+2026-02-15 17:25:15 INFO Agent starting run with config:
+	activation: relu
+	hidden_size: 128,128
+	learning_rate: 0.0005
+	optimizer: adam
+2026-02-15 17:25:15 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=relu --hidden_size=128,128 --learning_rate=0.0005 --optimizer=adam
+2026-02-15 17:25:20 INFO Running runs: ['faioy6ve']
+2026-02-15 17:26:51 INFO Cleaning up finished run: faioy6ve
+2026-02-15 17:26:52 INFO Agent received command: run
+2026-02-15 17:26:52 INFO Agent starting run with config:
+	activation: relu
+	hidden_size: 128,128
+	learning_rate: 0.01
+	optimizer: rmsprop
+2026-02-15 17:26:52 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=relu --hidden_size=128,128 --learning_rate=0.01 --optimizer=rmsprop
+2026-02-15 17:26:57 INFO Running runs: ['8cs7zu09']
+2026-02-15 17:27:45 INFO Cleaning up finished run: 8cs7zu09
+2026-02-15 17:27:46 INFO Agent received command: run
+2026-02-15 17:27:46 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 64,64
+	learning_rate: 0.0005
+	optimizer: rmsprop
+2026-02-15 17:27:46 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=64,64 --learning_rate=0.0005 --optimizer=rmsprop
+2026-02-15 17:27:51 INFO Running runs: ['e8c7zwst']
+2026-02-15 17:28:26 INFO Cleaning up finished run: e8c7zwst
+2026-02-15 17:28:27 INFO Agent received command: run
+2026-02-15 17:28:27 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 128,64
+	learning_rate: 0.001
+	optimizer: sgd
+2026-02-15 17:28:27 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=128,64 --learning_rate=0.001 --optimizer=sgd
+2026-02-15 17:28:32 INFO Running runs: ['vul81lf1']
+2026-02-15 17:29:32 INFO Cleaning up finished run: vul81lf1
+2026-02-15 17:29:32 INFO Agent received command: run
+2026-02-15 17:29:32 INFO Agent starting run with config:
+	activation: relu
+	hidden_size: 128,128
+	learning_rate: 0.0005
+	optimizer: rmsprop
+2026-02-15 17:29:32 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=relu --hidden_size=128,128 --learning_rate=0.0005 --optimizer=rmsprop
+2026-02-15 17:29:37 INFO Running runs: ['5xjjj3ko']
+2026-02-15 17:30:48 INFO Cleaning up finished run: 5xjjj3ko
+2026-02-15 17:30:48 INFO Agent received command: run
+2026-02-15 17:30:48 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 64,64
+	learning_rate: 0.001
+	optimizer: adam
+2026-02-15 17:30:48 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=64,64 --learning_rate=0.001 --optimizer=adam
+2026-02-15 17:30:53 INFO Running runs: ['bz52q4iy']
+2026-02-15 17:31:29 INFO Cleaning up finished run: bz52q4iy
+2026-02-15 17:31:30 INFO Agent received command: run
+2026-02-15 17:31:30 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 128,128
+	learning_rate: 0.001
+	optimizer: sgd
+2026-02-15 17:31:30 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=128,128 --learning_rate=0.001 --optimizer=sgd
+2026-02-15 17:31:35 INFO Running runs: ['t2wkuhwm']
+2026-02-15 17:32:34 INFO Cleaning up finished run: t2wkuhwm
+2026-02-15 17:32:52 INFO Agent received command: run
+2026-02-15 17:32:52 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 128,128
+	learning_rate: 0.0005
+	optimizer: rmsprop
+2026-02-15 17:32:52 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=128,128 --learning_rate=0.0005 --optimizer=rmsprop
+2026-02-15 17:32:57 INFO Running runs: ['vcm94wry']
+2026-02-15 17:34:34 INFO Cleaning up finished run: vcm94wry
+2026-02-15 17:34:36 INFO Agent received command: run
+2026-02-15 17:34:36 INFO Agent starting run with config:
+	activation: relu
+	hidden_size: 128,64
+	learning_rate: 0.001
+	optimizer: sgd
+2026-02-15 17:34:36 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=relu --hidden_size=128,64 --learning_rate=0.001 --optimizer=sgd
+2026-02-15 17:34:41 INFO Running runs: ['4uclvz1q']
+2026-02-15 17:35:41 INFO Cleaning up finished run: 4uclvz1q
+2026-02-15 17:35:42 INFO Agent received command: run
+2026-02-15 17:35:42 INFO Agent starting run with config:
+	activation: relu
+	hidden_size: 64,64
+	learning_rate: 0.0005
+	optimizer: adam
+2026-02-15 17:35:42 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=relu --hidden_size=64,64 --learning_rate=0.0005 --optimizer=adam
+2026-02-15 17:35:47 INFO Running runs: ['4h0s4o4l']
+2026-02-15 17:36:41 INFO Cleaning up finished run: 4h0s4o4l
+2026-02-15 17:36:42 INFO Agent received command: run
+2026-02-15 17:36:42 INFO Agent starting run with config:
+	activation: relu
+	hidden_size: 64,64
+	learning_rate: 0.001
+	optimizer: adam
+2026-02-15 17:36:42 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=relu --hidden_size=64,64 --learning_rate=0.001 --optimizer=adam
+2026-02-15 17:36:47 INFO Running runs: ['7huvjstk']
+2026-02-15 17:37:35 INFO Cleaning up finished run: 7huvjstk
+2026-02-15 17:37:37 INFO Agent received command: run
+2026-02-15 17:37:37 INFO Agent starting run with config:
+	activation: relu
+	hidden_size: 128,64
+	learning_rate: 0.001
+	optimizer: adam
+2026-02-15 17:37:37 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=relu --hidden_size=128,64 --learning_rate=0.001 --optimizer=adam
+2026-02-15 17:37:42 INFO Running runs: ['cdtoc50y']
+2026-02-15 17:39:03 INFO Cleaning up finished run: cdtoc50y
+2026-02-15 17:39:03 INFO Agent received command: run
+2026-02-15 17:39:03 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 128,64
+	learning_rate: 0.01
+	optimizer: adam
+2026-02-15 17:39:03 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=128,64 --learning_rate=0.01 --optimizer=adam
+2026-02-15 17:39:08 INFO Running runs: ['0ft5mgfc']
+2026-02-15 17:40:03 INFO Cleaning up finished run: 0ft5mgfc
+2026-02-15 17:40:04 INFO Agent received command: run
+2026-02-15 17:40:04 INFO Agent starting run with config:
+	activation: relu
+	hidden_size: 128,128
+	learning_rate: 0.01
+	optimizer: rmsprop
+2026-02-15 17:40:04 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=relu --hidden_size=128,128 --learning_rate=0.01 --optimizer=rmsprop
+2026-02-15 17:40:09 INFO Running runs: ['28l0h9jp']
+2026-02-15 17:41:14 INFO Cleaning up finished run: 28l0h9jp
+2026-02-15 17:41:16 INFO Agent received command: run
+2026-02-15 17:41:16 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 128,128
+	learning_rate: 0.001
+	optimizer: rmsprop
+2026-02-15 17:41:16 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=128,128 --learning_rate=0.001 --optimizer=rmsprop
+2026-02-15 17:41:21 INFO Running runs: ['n5gcntik']
+2026-02-15 17:43:12 INFO Cleaning up finished run: n5gcntik
+2026-02-15 17:43:12 INFO Agent received command: run
+2026-02-15 17:43:12 INFO Agent starting run with config:
+	activation: relu
+	hidden_size: 128,128
+	learning_rate: 0.0005
+	optimizer: adam
+2026-02-15 17:43:12 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=relu --hidden_size=128,128 --learning_rate=0.0005 --optimizer=adam
+2026-02-15 17:43:17 INFO Running runs: ['rxu2486w']
+2026-02-15 17:45:01 INFO Cleaning up finished run: rxu2486w
+2026-02-15 17:45:02 INFO Agent received command: run
+2026-02-15 17:45:02 INFO Agent starting run with config:
+	activation: relu
+	hidden_size: 128,128
+	learning_rate: 0.001
+	optimizer: adam
+2026-02-15 17:45:02 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=relu --hidden_size=128,128 --learning_rate=0.001 --optimizer=adam
+2026-02-15 17:45:07 INFO Running runs: ['me99bprx']
+2026-02-15 17:48:10 INFO Retry attempt failed:
+Traceback (most recent call last):
+  File "C:\Users\prani\OneDrive\Desktop\Sem-6 !\DL\da6401_assignment_1\.venv\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\prani\OneDrive\Desktop\Sem-6 !\DL\da6401_assignment_1\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\prani\OneDrive\Desktop\Sem-6 !\DL\da6401_assignment_1\.venv\Lib\site-packages\urllib3\connection.py", line 796, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+        sock=sock,
+    ...<14 lines>...
+        assert_fingerprint=self.assert_fingerprint,
+    )
+  File "C:\Users\prani\OneDrive\Desktop\Sem-6 !\DL\da6401_assignment_1\.venv\Lib\site-packages\urllib3\connection.py", line 975, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+        sock=sock,
+    ...<8 lines>...
+        tls_in_tls=tls_in_tls,
+    )
+  File "C:\Users\prani\OneDrive\Desktop\Sem-6 !\DL\da6401_assignment_1\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 483, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "C:\Users\prani\OneDrive\Desktop\Sem-6 !\DL\da6401_assignment_1\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 527, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prani\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sock=sock,
+        ^^^^^^^^^^
+    ...<5 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\prani\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1076, in _create
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\prani\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+ssl.SSLEOFError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\prani\OneDrive\Desktop\Sem-6 !\DL\da6401_assignment_1\.venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\prani\OneDrive\Desktop\Sem-6 !\DL\da6401_assignment_1\.venv\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+urllib3.exceptions.SSLError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\prani\OneDrive\Desktop\Sem-6 !\DL\da6401_assignment_1\.venv\Lib\site-packages\requests\adapters.py", line 644, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\prani\OneDrive\Desktop\Sem-6 !\DL\da6401_assignment_1\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\prani\OneDrive\Desktop\Sem-6 !\DL\da6401_assignment_1\.venv\Lib\site-packages\urllib3\util\retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\prani\OneDrive\Desktop\Sem-6 !\DL\da6401_assignment_1\.venv\Lib\site-packages\wandb\sdk\lib\retry.py", line 160, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "C:\Users\prani\OneDrive\Desktop\Sem-6 !\DL\da6401_assignment_1\.venv\Lib\site-packages\wandb\sdk\internal\internal_api.py", line 394, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\prani\OneDrive\Desktop\Sem-6 !\DL\da6401_assignment_1\.venv\Lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "C:\Users\prani\OneDrive\Desktop\Sem-6 !\DL\da6401_assignment_1\.venv\Lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prani\OneDrive\Desktop\Sem-6 !\DL\da6401_assignment_1\.venv\Lib\site-packages\wandb\sdk\lib\gql_request.py", line 70, in execute
+    request = self.session.post(self.url, **post_args)
+  File "C:\Users\prani\OneDrive\Desktop\Sem-6 !\DL\da6401_assignment_1\.venv\Lib\site-packages\requests\sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prani\OneDrive\Desktop\Sem-6 !\DL\da6401_assignment_1\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\prani\OneDrive\Desktop\Sem-6 !\DL\da6401_assignment_1\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\prani\OneDrive\Desktop\Sem-6 !\DL\da6401_assignment_1\.venv\Lib\site-packages\requests\adapters.py", line 675, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))
+2026-02-15 17:48:44 INFO Cleaning up finished run: me99bprx
+2026-02-15 17:48:45 INFO Agent received command: run
+2026-02-15 17:48:45 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 128,128
+	learning_rate: 0.01
+	optimizer: adam
+2026-02-15 17:48:45 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=128,128 --learning_rate=0.01 --optimizer=adam
+2026-02-15 17:48:51 INFO Running runs: ['5dl2t8v6']
+2026-02-15 17:49:55 INFO Cleaning up finished run: 5dl2t8v6
+2026-02-15 17:49:57 INFO Agent received command: run
+2026-02-15 17:49:57 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 64,64
+	learning_rate: 0.0005
+	optimizer: sgd
+2026-02-15 17:49:57 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=64,64 --learning_rate=0.0005 --optimizer=sgd
+2026-02-15 17:50:02 INFO Running runs: ['33sjys4c']
+2026-02-15 17:51:21 INFO Cleaning up finished run: 33sjys4c
+2026-02-15 17:51:22 INFO Agent received command: run
+2026-02-15 17:51:22 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 128,64
+	learning_rate: 0.0005
+	optimizer: sgd
+2026-02-15 17:51:22 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=128,64 --learning_rate=0.0005 --optimizer=sgd
+2026-02-15 17:51:27 INFO Running runs: ['q16aqz4q']
+2026-02-15 17:52:57 INFO Cleaning up finished run: q16aqz4q
+2026-02-15 17:52:57 INFO Agent received command: run
+2026-02-15 17:52:57 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 128,64
+	learning_rate: 0.0005
+	optimizer: adam
+2026-02-15 17:52:57 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=128,64 --learning_rate=0.0005 --optimizer=adam
+2026-02-15 17:53:02 INFO Running runs: ['6o46vzvu']
+2026-02-15 17:54:54 INFO Cleaning up finished run: 6o46vzvu
+2026-02-15 17:54:55 INFO Agent received command: run
+2026-02-15 17:54:55 INFO Agent starting run with config:
+	activation: relu
+	hidden_size: 128,64
+	learning_rate: 0.01
+	optimizer: rmsprop
+2026-02-15 17:54:55 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=relu --hidden_size=128,64 --learning_rate=0.01 --optimizer=rmsprop
+2026-02-15 17:55:00 INFO Running runs: ['85lceawf']
+2026-02-15 17:56:07 INFO Cleaning up finished run: 85lceawf
+2026-02-15 17:56:10 INFO Agent received command: run
+2026-02-15 17:56:10 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 128,128
+	learning_rate: 0.0005
+	optimizer: rmsprop
+2026-02-15 17:56:10 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=128,128 --learning_rate=0.0005 --optimizer=rmsprop
+2026-02-15 17:56:15 INFO Running runs: ['o02lkatl']
+2026-02-15 17:57:43 INFO Cleaning up finished run: o02lkatl
+2026-02-15 17:57:45 INFO Agent received command: run
+2026-02-15 17:57:45 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 128,128
+	learning_rate: 0.0005
+	optimizer: sgd
+2026-02-15 17:57:45 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=128,128 --learning_rate=0.0005 --optimizer=sgd
+2026-02-15 17:57:50 INFO Running runs: ['vbes085b']
+2026-02-15 17:58:54 INFO Cleaning up finished run: vbes085b
+2026-02-15 17:58:56 INFO Agent received command: run
+2026-02-15 17:58:56 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 64,64
+	learning_rate: 0.001
+	optimizer: sgd
+2026-02-15 17:58:56 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=64,64 --learning_rate=0.001 --optimizer=sgd
+2026-02-15 17:59:01 INFO Running runs: ['yvd247xu']
+2026-02-15 17:59:49 INFO Cleaning up finished run: yvd247xu
+2026-02-15 17:59:50 INFO Agent received command: run
+2026-02-15 17:59:50 INFO Agent starting run with config:
+	activation: relu
+	hidden_size: 128,64
+	learning_rate: 0.0005
+	optimizer: rmsprop
+2026-02-15 17:59:50 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=relu --hidden_size=128,64 --learning_rate=0.0005 --optimizer=rmsprop
+2026-02-15 17:59:55 INFO Running runs: ['jk3o2az0']
+2026-02-15 18:01:46 INFO Cleaning up finished run: jk3o2az0
+2026-02-15 18:01:47 INFO Agent received command: run
+2026-02-15 18:01:47 INFO Agent starting run with config:
+	activation: relu
+	hidden_size: 128,128
+	learning_rate: 0.01
+	optimizer: adam
+2026-02-15 18:01:47 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=relu --hidden_size=128,128 --learning_rate=0.01 --optimizer=adam
+2026-02-15 18:01:52 INFO Running runs: ['s32cw6d4']
+2026-02-15 18:03:09 INFO Cleaning up finished run: s32cw6d4
+2026-02-15 18:03:11 INFO Agent received command: run
+2026-02-15 18:03:11 INFO Agent starting run with config:
+	activation: relu
+	hidden_size: 64,64
+	learning_rate: 0.001
+	optimizer: sgd
+2026-02-15 18:03:11 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=relu --hidden_size=64,64 --learning_rate=0.001 --optimizer=sgd
+2026-02-15 18:03:16 INFO Running runs: ['ep55mo4b']
+2026-02-15 18:04:28 INFO Cleaning up finished run: ep55mo4b
+2026-02-15 18:04:30 INFO Agent received command: run
+2026-02-15 18:04:30 INFO Agent starting run with config:
+	activation: relu
+	hidden_size: 128,64
+	learning_rate: 0.01
+	optimizer: adam
+2026-02-15 18:04:30 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=relu --hidden_size=128,64 --learning_rate=0.01 --optimizer=adam
+2026-02-15 18:04:35 INFO Running runs: ['1xdc0u09']
+2026-02-15 18:06:02 INFO Cleaning up finished run: 1xdc0u09
+2026-02-15 18:06:04 INFO Agent received command: run
+2026-02-15 18:06:04 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 128,64
+	learning_rate: 0.0005
+	optimizer: sgd
+2026-02-15 18:06:04 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=128,64 --learning_rate=0.0005 --optimizer=sgd
+2026-02-15 18:06:09 INFO Running runs: ['00m0fd6u']
+2026-02-15 18:07:26 INFO Cleaning up finished run: 00m0fd6u
+2026-02-15 18:07:27 INFO Agent received command: run
+2026-02-15 18:07:27 INFO Agent starting run with config:
+	activation: tanh
+	hidden_size: 128,128
+	learning_rate: 0.001
+	optimizer: rmsprop
+2026-02-15 18:07:27 INFO About to run command: .venv\Scripts\python.exe src/train.py --activation=tanh --hidden_size=128,128 --learning_rate=0.001 --optimizer=rmsprop

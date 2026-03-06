@@ -1,0 +1,12 @@
+{"time":"2026-02-15T17:32:57.4021631+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-02-15T17:32:59.5100164+05:30","level":"INFO","msg":"stream: created new stream","id":"vcm94wry"}
+{"time":"2026-02-15T17:32:59.5105383+05:30","level":"INFO","msg":"handler: started","stream_id":"vcm94wry"}
+{"time":"2026-02-15T17:32:59.5121234+05:30","level":"INFO","msg":"stream: started","id":"vcm94wry"}
+{"time":"2026-02-15T17:32:59.5121234+05:30","level":"INFO","msg":"sender: started","stream_id":"vcm94wry"}
+{"time":"2026-02-15T17:32:59.5121234+05:30","level":"INFO","msg":"writer: started","stream_id":"vcm94wry"}
+{"time":"2026-02-15T17:34:29.8460657+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-15T17:34:30.3790847+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-02-15T17:34:30.384574+05:30","level":"INFO","msg":"stream: closing","id":"vcm94wry"}
+{"time":"2026-02-15T17:34:30.384574+05:30","level":"INFO","msg":"handler: closed","stream_id":"vcm94wry"}
+{"time":"2026-02-15T17:34:30.3867992+05:30","level":"INFO","msg":"sender: closed","stream_id":"vcm94wry"}
+{"time":"2026-02-15T17:34:30.3867992+05:30","level":"INFO","msg":"stream: closed","id":"vcm94wry"}

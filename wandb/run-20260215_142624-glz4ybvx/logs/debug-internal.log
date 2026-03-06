@@ -1,0 +1,12 @@
+{"time":"2026-02-15T14:26:26.495331+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-02-15T14:26:27.390253+05:30","level":"INFO","msg":"stream: created new stream","id":"glz4ybvx"}
+{"time":"2026-02-15T14:26:27.390253+05:30","level":"INFO","msg":"handler: started","stream_id":"glz4ybvx"}
+{"time":"2026-02-15T14:26:27.3936617+05:30","level":"INFO","msg":"stream: started","id":"glz4ybvx"}
+{"time":"2026-02-15T14:26:27.3936617+05:30","level":"INFO","msg":"writer: started","stream_id":"glz4ybvx"}
+{"time":"2026-02-15T14:26:27.3936617+05:30","level":"INFO","msg":"sender: started","stream_id":"glz4ybvx"}
+{"time":"2026-02-15T14:27:28.0784729+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-15T14:27:28.8955771+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-02-15T14:27:28.9021383+05:30","level":"INFO","msg":"stream: closing","id":"glz4ybvx"}
+{"time":"2026-02-15T14:27:28.9021383+05:30","level":"INFO","msg":"handler: closed","stream_id":"glz4ybvx"}
+{"time":"2026-02-15T14:27:28.9048159+05:30","level":"INFO","msg":"sender: closed","stream_id":"glz4ybvx"}
+{"time":"2026-02-15T14:27:28.9048159+05:30","level":"INFO","msg":"stream: closed","id":"glz4ybvx"}
