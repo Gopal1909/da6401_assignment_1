@@ -20,3 +20,10 @@ For questions or issues, please contact the teaching staff or post on the course
 ---
 
 Good luck with your implementation!
+
+## Links
+
+- GitHub repository: https://github.com/Gopal1909/da6401_assignment_1
+- Sample Weights & Biases report: https://api.wandb.ai/links/iitmgopal1-iit-madras/mor25p4z
+
+

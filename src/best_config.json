@@ -1,0 +1,20 @@
+{
+  "epochs": 10,
+  "dataset": "mnist",
+  "batch_size": 64,
+  "learning_rate": 0.001,
+  "optimizer": "rmsprop",
+  "loss": "cross_entropy",
+  "hidden_size": "128,128",
+  "num_layers": 2,
+  "activation": "relu",
+  "weight_init": "xavier",
+  "weight_decay": 0.0,
+  "wandb_project": "assignment_1",
+  "model_save_path": "src/best_model.npy",
+  "test_loss": 0.08315370397648489,
+  "test_accuracy": 0.9741,
+  "test_precision": 0.9740898265584242,
+  "test_recall": 0.9738236826974994,
+  "test_f1": 0.9739118035711334
+}

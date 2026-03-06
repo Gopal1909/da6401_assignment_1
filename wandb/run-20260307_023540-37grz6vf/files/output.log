@@ -1,0 +1,27 @@
+Epoch 1/10 - Loss: 0.2588 - Val Loss: 0.1515 - Val Acc: 0.9552
+Epoch 2/10 - Loss: 0.1096 - Val Loss: 0.1167 - Val Acc: 0.9678
+Epoch 3/10 - Loss: 0.0770 - Val Loss: 0.1010 - Val Acc: 0.9722
+Epoch 4/10 - Loss: 0.0578 - Val Loss: 0.0997 - Val Acc: 0.9725
+Epoch 5/10 - Loss: 0.0451 - Val Loss: 0.0894 - Val Acc: 0.9768
+Epoch 6/10 - Loss: 0.0365 - Val Loss: 0.0944 - Val Acc: 0.9768
+Epoch 7/10 - Loss: 0.0289 - Val Loss: 0.1117 - Val Acc: 0.9755
+Epoch 8/10 - Loss: 0.0237 - Val Loss: 0.1172 - Val Acc: 0.9732
+Early stopping triggered
+Test Metrics:
+loss: 0.0816712349849388
+accuracy: 0.9765
+precision: 0.9764898090743618
+recall: 0.9762474569514733
+f1: 0.9763302629633948
+predictions: [7 4 5 ... 6 4 3]
+confusion_matrix: [[ 970    0    2    0    1    1    1    0    5    6]
+ [   0 1116    2    2    1    0    0    1    3    0]
+ [   1    7  969    5    5    0    0    3    8    1]
+ [   1    1    1  997    0    7    0    3    9    1]
+ [   0    0    0    0  954    0    1    2    2   16]
+ [   2    0    0    9    0  874    3    4    6    4]
+ [   3    1    0    0    6    4  963    0    5    0]
+ [   1    3    7    0    2    0    0 1017    2   10]
+ [   1    2    1    5    0    8    1    2  954    1]
+ [   0    7    0    7    9    4    0    6   10  951]]
+Test F1 did not improve; existing best model retained.
