@@ -12,9 +12,9 @@
   "weight_decay": 0.0,
   "wandb_project": "assignment_1",
   "model_save_path": "src/best_model.npy",
-  "test_loss": 0.08315370397648489,
-  "test_accuracy": 0.9741,
-  "test_precision": 0.9740898265584242,
-  "test_recall": 0.9738236826974994,
-  "test_f1": 0.9739118035711334
+  "test_loss": 0.07551737715535899,
+  "test_accuracy": 0.9794,
+  "test_precision": 0.9794473857555255,
+  "test_recall": 0.9792328765931237,
+  "test_f1": 0.9792945178579828
 }

@@ -6,6 +6,8 @@ import argparse
 import numpy as np
 from utils.data_loader import load_data
 from ann.neural_network import NeuralNetwork
+from sklearn.metrics import confusion_matrix
+
 
 def parse_arguments():
     """
@@ -137,6 +139,10 @@ def evaluate_model(model, X_test, y_test):
     """
     logits = model.forward(X_test)
     metrics = model.evaluate(X_test, y_test)
+    
+    predictions = np.argmax(logits, axis=1)
+    
+    cm = confusion_matrix(y_test, predictions)
 
     return {
         "logits": logits,
@@ -144,7 +150,8 @@ def evaluate_model(model, X_test, y_test):
         "accuracy": metrics["accuracy"],
         "precision": metrics["precision"],
         "recall": metrics["recall"],
-        "f1": metrics["f1"]
+        "f1": metrics["f1"],
+        "confusion_matrix": cm
     }
 
 
@@ -185,7 +192,11 @@ def main():
 
     print("\n===== TEST METRICS =====")
     for key, value in results.items():
-        print(f"{key}: {value}")
+        if key == "confusion_matrix":
+            print("\nConfusion Matrix:")
+            print(value)
+        else:
+            print(f"{key}: {value}")
     
     print("Evaluation complete!")
     

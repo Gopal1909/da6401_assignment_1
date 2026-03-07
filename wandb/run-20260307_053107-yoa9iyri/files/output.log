@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "C:\Users\prani\OneDrive\Desktop\Sem-6 !\DL\da6401_assignment_1\src\train.py", line 250, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\prani\OneDrive\Desktop\Sem-6 !\DL\da6401_assignment_1\src\train.py", line 186, in main
+    model.train(X_train, y_train, X_val, y_val, merged.epochs, merged.batch_size)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prani\OneDrive\Desktop\Sem-6 !\DL\da6401_assignment_1\src\ann\neural_network.py", line 142, in train
+    loss = self.backward(y_batch, logits)
+  File "C:\Users\prani\OneDrive\Desktop\Sem-6 !\DL\da6401_assignment_1\src\ann\neural_network.py", line 102, in backward
+    loss = self.loss_fn.forward(y_pred, y_true)
+  File "C:\Users\prani\OneDrive\Desktop\Sem-6 !\DL\da6401_assignment_1\src\ann\objective_functions.py", line 46, in forward
+    return np.mean((y_pred - y_true) **2)
+                    ~~~~~~~^~~~~~~~
+ValueError: operands could not be broadcast together with shapes (64,10) (64,)

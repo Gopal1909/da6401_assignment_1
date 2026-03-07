@@ -1,0 +1,12 @@
+{"time":"2026-03-07T03:53:30.636271+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-07T03:53:32.9088795+05:30","level":"INFO","msg":"stream: created new stream","id":"nphp8j4j"}
+{"time":"2026-03-07T03:53:32.9088795+05:30","level":"INFO","msg":"handler: started","stream_id":"nphp8j4j"}
+{"time":"2026-03-07T03:53:32.9116917+05:30","level":"INFO","msg":"stream: started","id":"nphp8j4j"}
+{"time":"2026-03-07T03:53:32.9116917+05:30","level":"INFO","msg":"writer: started","stream_id":"nphp8j4j"}
+{"time":"2026-03-07T03:53:32.9116917+05:30","level":"INFO","msg":"sender: started","stream_id":"nphp8j4j"}
+{"time":"2026-03-07T03:54:56.9872672+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-07T03:54:57.4457647+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-07T03:54:57.4519009+05:30","level":"INFO","msg":"stream: closing","id":"nphp8j4j"}
+{"time":"2026-03-07T03:54:57.4519009+05:30","level":"INFO","msg":"handler: closed","stream_id":"nphp8j4j"}
+{"time":"2026-03-07T03:54:57.4547216+05:30","level":"INFO","msg":"sender: closed","stream_id":"nphp8j4j"}
+{"time":"2026-03-07T03:54:57.4547216+05:30","level":"INFO","msg":"stream: closed","id":"nphp8j4j"}

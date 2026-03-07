@@ -10,11 +10,16 @@ class LinearLayer:
         self.out_features = out_features
         self.weight_init = weight_init
         
-        if weight_init == "random":
+        if weight_init == "zeros":
+            self.W = np.zeros((in_features, out_features))
+
+        elif weight_init == "random":
             self.W = np.random.randn(in_features, out_features) * 0.01
+
         elif weight_init == "xavier":
             limit = np.sqrt(6 / (in_features + out_features))
             self.W = np.random.uniform(-limit, limit, (in_features, out_features))
+
         else:
             raise ValueError(f"Unsupported weight initialization method: {weight_init}")
         

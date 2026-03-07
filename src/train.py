@@ -111,7 +111,7 @@ def parse_arguments():
         "--weight_init",
         "-wi",
         type=str,
-        choices=['random', 'xavier'],
+        choices=['zeros', 'random', 'xavier'],
         default='xavier',
         help="Weight initialization method (default: 'xavier')"
     )
@@ -127,7 +127,7 @@ def parse_arguments():
     parser.add_argument(
         "--wandb_project",
         type=str,
-        default="assignment_1",
+        default="da6401_assignment_1-src",
         help="W&B project name for logging"
     )
     

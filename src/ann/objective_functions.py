@@ -40,12 +40,15 @@ class MSELoss:
         self.y_true = None
     
     def forward(self, y_pred, y_true):
+        if y_true.ndim == 1:
+            y_true_onehot = np.zeros_like(y_pred)
+            y_true_onehot[np.arange(len(y_true)), y_true] = 1
+            y_true = y_true_onehot
         self.y_pred = y_pred
         self.y_true = y_true
         
         return np.mean((y_pred - y_true) **2)
     
     def backward(self):
-        batch_size = self.y_pred.shape[0]
-        return 2 * (self.y_pred - self.y_true) / batch_size
+        return 2 * (self.y_pred - self.y_true) / self.y_pred.shape[0]
     

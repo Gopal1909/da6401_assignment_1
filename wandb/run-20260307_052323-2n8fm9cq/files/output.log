@@ -1,0 +1,28 @@
+Epoch 1/10 - Loss: 0.2683 - Val Loss: 0.1440 - Val Acc: 0.9595
+Epoch 2/10 - Loss: 0.1130 - Val Loss: 0.1035 - Val Acc: 0.9700
+Epoch 3/10 - Loss: 0.0792 - Val Loss: 0.1197 - Val Acc: 0.9645
+Epoch 4/10 - Loss: 0.0594 - Val Loss: 0.1009 - Val Acc: 0.9725
+Epoch 5/10 - Loss: 0.0488 - Val Loss: 0.0891 - Val Acc: 0.9743
+Epoch 6/10 - Loss: 0.0384 - Val Loss: 0.0881 - Val Acc: 0.9760
+Epoch 7/10 - Loss: 0.0317 - Val Loss: 0.1127 - Val Acc: 0.9708
+Epoch 8/10 - Loss: 0.0265 - Val Loss: 0.1279 - Val Acc: 0.9707
+Epoch 9/10 - Loss: 0.0223 - Val Loss: 0.1114 - Val Acc: 0.9747
+Early stopping triggered
+Test Metrics:
+loss: 0.07551737715535899
+accuracy: 0.9794
+precision: 0.9794473857555255
+recall: 0.9792328765931237
+f1: 0.9792945178579828
+predictions: [7 4 5 ... 6 4 3]
+confusion_matrix: [[ 976    1    1    2    0    2    1    0    2    1]
+ [   0 1116    1    2    1    1    0    2    1    1]
+ [   1    5  968   10    3    0    0    5    6    1]
+ [   1    1    1 1001    0    8    0    2    6    0]
+ [   0    0    0    0  949    0    2    0    1   23]
+ [   3    1    0    5    1  881    5    0    1    5]
+ [   4    0    0    0    3    4  970    0    1    0]
+ [   2    3    2    2    5    0    0 1014    1   13]
+ [   1    4    1    7    0    4    3    0  948    7]
+ [   0    3    0    3    9    1    0    4    3  971]]
+Best model and config saved to src\best_model.npy and src\best_config.json

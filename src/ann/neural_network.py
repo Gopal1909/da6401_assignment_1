@@ -125,6 +125,7 @@ class NeuralNetwork:
         patience = 3
         patience_counter = 0
         num_samples = X_train.shape[0]
+        iteration = 0
 
         for epoch in range(epochs):
             epoch_loss = 0.0
@@ -140,6 +141,16 @@ class NeuralNetwork:
 
                 logits = self.forward(X_batch)
                 loss = self.backward(y_batch, logits)
+                
+                if iteration < 50:
+                    first_layer = self.layers[0]
+                    grad_matrix = first_layer.grad_W
+
+                    for j in range(5):
+                        grad_norm = np.linalg.norm(grad_matrix[:, j])
+                        wandb.log({f"grad_neuron_{j}": grad_norm, "iteration": iteration})
+
+                iteration += 1
 
                 self.update_weights()
                 epoch_loss += loss
