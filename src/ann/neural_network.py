@@ -140,7 +140,10 @@ class NeuralNetwork:
                     # make a copy to be safe (so in-place update doesn't change history)
                     grad_list.append(np.array(layer.grad_W, copy=True))
 
-        return loss, grad_list
+        if not isinstance(grad_list, list):
+            grad_list = [grad_list]
+
+        return float(loss), grad_list
 
     def update_weights(self):
         """
