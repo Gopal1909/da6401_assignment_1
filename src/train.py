@@ -31,6 +31,15 @@ def parse_arguments():
     """
     parser = argparse.ArgumentParser(description='Train a neural network')
     
+    # Optional positional argument for epochs (for compatibility with test scripts)
+    parser.add_argument(
+        "epochs_pos",
+        nargs="?",
+        type=int,
+        default=None,
+        help="(Optional positional) Number of training epochs"
+    )
+    
     parser.add_argument(
         "--epochs",
         "-e",
@@ -138,9 +147,13 @@ def parse_arguments():
         help="Relative path to save trained model (default: 'src/best_model.npy')"
     )
     
+    args = parser.parse_args()
     
+    # If positional epochs argument is provided, use it to override --epochs
+    if args.epochs_pos is not None:
+        args.epochs = args.epochs_pos
     
-    return parser.parse_args()
+    return args
 
 
 

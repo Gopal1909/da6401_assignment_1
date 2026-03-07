@@ -36,6 +36,12 @@ class LinearLayer:
         return X @ self.W + self.b
     
     def backward(self, dZ):
+        # Ensure dZ is 2D (batch_size, out_features)
+        if dZ.ndim == 1:
+            dZ = dZ.reshape(1, -1)
+        if self.last_input.ndim == 1:
+            self.last_input = self.last_input.reshape(1, -1)
+        
         self.grad_W = self.last_input.T @ dZ
         self.grad_b = np.sum(dZ, axis=0)
         return dZ @ self.W.T
