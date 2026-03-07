@@ -108,7 +108,7 @@ class NeuralNetwork:
         for layer in reversed(self.layers):
             # layer.backward should return gradient for previous layer's outputs
             grad = layer.backward(grad)
-        return loss
+        return loss, None
 
     def update_weights(self):
         """
@@ -140,13 +140,14 @@ class NeuralNetwork:
                 y_batch = y_train_shuffled[i: i + batch_size]
 
                 logits = self.forward(X_batch)
-                loss = self.backward(y_batch, logits)
+                loss,_ = self.backward(y_batch, logits)
                 
                 if iteration < 50:
                     first_layer = self.layers[0]
                     grad_matrix = first_layer.grad_W
+                    num_neurons = min(5, grad_matrix.shape[1])
 
-                    for j in range(5):
+                    for j in range(num_neurons):
                         grad_norm = np.linalg.norm(grad_matrix[:, j])
                         wandb.log({f"grad_neuron_{j}": grad_norm, "iteration": iteration})
 

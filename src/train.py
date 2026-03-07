@@ -94,8 +94,9 @@ def parse_arguments():
     parser.add_argument(
         "--hidden_size",
         "-sz",
-        type=str,
-        default="128,128",
+        type=int,
+        nargs="+",
+        default=[128,128],
         help="Number of neurons in each hidden layer (comma-separated, e.g. '128,64')"
     )
     
@@ -175,9 +176,11 @@ def main():
             for x in merged.hidden_size.replace("[", "").replace("]", "").split(",")
         ]
 
-    if len(merged.hidden_size) != merged.num_layers:
-        raise ValueError(f"--num_layers ({merged.num_layers}) must match the number of sizes in --hidden_size ({len(merged.hidden_size)})")
-    
+    hidden_sizes = merged.hidden_size
+    if len(hidden_sizes) != args.num_layers:
+        raise ValueError(
+            f"--num_layers ({args.num_layers}) must match the number of sizes in --hidden_size ({len(hidden_sizes)})"
+        )
     if merged.epochs <=0:
         raise ValueError("epochs must be a positive integer")
 

@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "C:\Users\prani\OneDrive\Desktop\Sem-6 !\DL\da6401_assignment_1\src\train.py", line 263, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\prani\OneDrive\Desktop\Sem-6 !\DL\da6401_assignment_1\src\train.py", line 199, in main
+    model.train(X_train, y_train, X_val, y_val, merged.epochs, merged.batch_size)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prani\OneDrive\Desktop\Sem-6 !\DL\da6401_assignment_1\src\ann\neural_network.py", line 143, in train
+    loss,_ = self.backward(y_batch, logits)
+    ^^^^^^
+TypeError: cannot unpack non-iterable numpy.float64 object

@@ -1,0 +1,21 @@
+Epoch 1/3 - Loss: 0.2785 - Val Loss: 0.1586 - Val Acc: 0.9523
+Epoch 2/3 - Loss: 0.1064 - Val Loss: 0.1144 - Val Acc: 0.9645
+Epoch 3/3 - Loss: 0.0712 - Val Loss: 0.1003 - Val Acc: 0.9713
+Test Metrics:
+loss: 0.09793880709023685
+accuracy: 0.9705
+precision: 0.9707973726783475
+recall: 0.9701716808408971
+f1: 0.9703622142297187
+predictions: [7 4 5 ... 6 4 3]
+confusion_matrix: [[ 976    1    2    1    0    0    3    1    2    0]
+ [   0 1117    0    1    0    2    0    2    2    1]
+ [   3    8  970    9    2    0    0    5    2    0]
+ [   2    4    3  987    0   15    0    9    0    0]
+ [   0    1    5    0  943    2    5    1    2   16]
+ [   2    3    0    8    2  876    5    0    2    4]
+ [   1    1    0    0    1    2  972    0    5    0]
+ [   1    4    7    1    2    1    0 1016    0   10]
+ [   1    7    4   31    1    2    6    5  917    1]
+ [   1    7    0   22   11   10    1    6    5  931]]
+Test F1 did not improve; existing best model retained.

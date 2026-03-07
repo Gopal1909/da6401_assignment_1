@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "C:\Users\prani\OneDrive\Desktop\Sem-6 !\DL\da6401_assignment_1\src\train.py", line 266, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\prani\OneDrive\Desktop\Sem-6 !\DL\da6401_assignment_1\src\train.py", line 202, in main
+    model.train(X_train, y_train, X_val, y_val, merged.epochs, merged.batch_size)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prani\OneDrive\Desktop\Sem-6 !\DL\da6401_assignment_1\src\ann\neural_network.py", line 150, in train
+    grad_norm = np.linalg.norm(grad_matrix[:, j])
+                               ~~~~~~~~~~~^^^^^^
+IndexError: index 3 is out of bounds for axis 1 with size 3
