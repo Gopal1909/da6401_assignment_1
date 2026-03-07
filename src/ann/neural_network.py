@@ -108,7 +108,9 @@ class NeuralNetwork:
         for layer in reversed(self.layers):
             # layer.backward should return gradient for previous layer's outputs
             grad = layer.backward(grad)
-        return loss, None
+        grad_list = [layer.grad_W for layer in self.layers if hasattr(layer, "grad_W")]
+
+        return loss, grad_list
 
     def update_weights(self):
         """

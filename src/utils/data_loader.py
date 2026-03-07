@@ -8,9 +8,9 @@ from sklearn.model_selection import train_test_split
 
 def load_data(dataset_name):
     if dataset_name == "mnist":
-        dataset = fetch_openml("mnist_784", version=1, as_frame=False)
+        dataset = fetch_openml("mnist_784", version=1, as_frame=False, parser="liac-arff")
     elif dataset_name == "fashion_mnist":
-        dataset = fetch_openml("Fashion-MNIST", version=1, as_frame=False)
+        dataset = fetch_openml("Fashion-MNIST", version=1, as_frame=False, parser="liac-arff")
     else:
         raise ValueError("Unsupported dataset")
     
