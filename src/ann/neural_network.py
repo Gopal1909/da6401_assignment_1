@@ -95,20 +95,50 @@ class NeuralNetwork:
     def backward(self, y_true, y_pred):
         """
         Backward propagation to compute gradients and return scalar loss.
-        Assumes loss_fn.forward(logits, y_true) was called here and loss_fn.backward()
-        returns gradient wrt logits.
+        Returns:
+        loss (float), grad_list (list of np.ndarray)  -- grad_list for each LinearLayer in order
         """
         # compute and store loss (loss_fn should keep what's needed for backward)
         loss = self.loss_fn.forward(y_pred, y_true)
 
-        # get gradient of loss w.r.t. logits (implementation-dependent)
+        # ensure loss is a scalar float
+        try:
+            loss = float(loss)
+        except Exception as e:
+            raise TypeError(f"loss_fn.forward should return a scalar convertible to float; got {type(loss)}: {e}")
+
+        # get gradient of loss w.r.t. logits
         grad = self.loss_fn.backward()
 
+        # validate gradient shape & type
+        if not isinstance(grad, np.ndarray):
+            raise TypeError(
+                f"loss_fn.backward() must return a numpy.ndarray (grad w.r.t logits). Got {type(grad)}"
+            )
+
+        if grad.shape != y_pred.shape:
+            raise ValueError(
+                f"loss_fn.backward() returned grad of shape {grad.shape} but logits have shape {y_pred.shape}."
+            )
+
         # backprop through layers in reverse order
+        cur_grad = grad
         for layer in reversed(self.layers):
-            # layer.backward should return gradient for previous layer's outputs
-            grad = layer.backward(grad)
-        grad_list = [layer.grad_W for layer in self.layers if hasattr(layer, "grad_W")]
+            cur_grad = layer.backward(cur_grad)
+
+        # collect grad_W for linear layers (in forward order)
+        grad_list = []
+        for layer in self.layers:
+            if hasattr(layer, "grad_W"):
+                # ensure grad_W is an ndarray; if None, convert to zeros of same shape as W
+                if layer.grad_W is None:
+                    if hasattr(layer, "W"):
+                        grad_list.append(np.zeros_like(layer.W))
+                    else:
+                        grad_list.append(np.array([]))
+                else:
+                    # make a copy to be safe (so in-place update doesn't change history)
+                    grad_list.append(np.array(layer.grad_W, copy=True))
 
         return loss, grad_list
 
@@ -142,14 +172,13 @@ class NeuralNetwork:
                 y_batch = y_train_shuffled[i: i + batch_size]
 
                 logits = self.forward(X_batch)
-                loss,_ = self.backward(y_batch, logits)
+                loss, grad_list = self.backward(y_batch, logits)
                 
                 if iteration < 50:
-                    first_layer = self.layers[0]
-                    grad_matrix = first_layer.grad_W
-                    num_neurons = min(5, grad_matrix.shape[1])
+                    grad_matrix = grad_list[0] if len(grad_list) > 0 else np.array([])
+                    n_report = min(5, grad_matrix.shape[1])
 
-                    for j in range(num_neurons):
+                    for j in range(n_report):
                         grad_norm = np.linalg.norm(grad_matrix[:, j])
                         wandb.log({f"grad_neuron_{j}": grad_norm, "iteration": iteration})
 

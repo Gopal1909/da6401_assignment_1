@@ -166,17 +166,24 @@ def main():
     
     
     
-    wandb.init(project=args.wandb_project)
-    config = wandb.config
-    config.update(vars(args), allow_val_change=True)
-    merged = argparse.Namespace(**{**vars(args), **dict(config)})
-    if isinstance(merged.hidden_size, str):
-        merged.hidden_size = [
-            int(x.strip())
-            for x in merged.hidden_size.replace("[", "").replace("]", "").split(",")
-        ]
+    use_wandb = True
+    try:
+        wandb.init(project=args.wandb_project)
+        config = wandb.config
+        config.update(vars(args), allow_val_change=True)
+        merged = argparse.Namespace(**{**vars(args), **dict(config)})
+    except Exception:
+        # fallback: no wandb available / offline -- still run
+        use_wandb = False
+        merged = args
 
-    hidden_sizes = merged.hidden_size
+    raw = args.hidden_size
+    if isinstance(raw, (list, tuple)):
+        hidden_sizes = [int(x) for x in raw]
+    else:
+        s = str(raw).strip()
+        s = s.lstrip("[").rstrip("]")
+        hidden_sizes = [int(x.strip()) for x in s.split(",") if x.strip()]
     if len(hidden_sizes) != args.num_layers:
         raise ValueError(
             f"--num_layers ({args.num_layers}) must match the number of sizes in --hidden_size ({len(hidden_sizes)})"
@@ -203,18 +210,21 @@ def main():
     
     metrics = model.evaluate(X_test, y_test)
     
-    wandb.log({
-        "test_loss": metrics["loss"],
-        "test_accuracy": metrics["accuracy"],
-        "test_precision": metrics["precision"],
-        "test_recall": metrics["recall"],
-        "test_f1": metrics["f1"],
-        "confusion_matrix": wandb.plot.confusion_matrix(
-            preds = metrics["predictions"],
-            y_true = y_test,
-            class_names=[str(i) for i in range(10)]
-        )
-    })
+    try:
+        wandb.log({
+            "test_loss": metrics["loss"],
+            "test_accuracy": metrics["accuracy"],
+            "test_precision": metrics["precision"],
+            "test_recall": metrics["recall"],
+            "test_f1": metrics["f1"],
+            "confusion_matrix": wandb.plot.confusion_matrix(
+                preds = metrics["predictions"],
+                y_true = y_test,
+                class_names=[str(i) for i in range(10)]
+            )
+        })
+    except:
+        pass
     print("Test Metrics:")
     for key, value in metrics.items():
         print(f"{key}: {value}")
